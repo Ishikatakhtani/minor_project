@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="signup.css">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<body id="b">
+
+    <div data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+    <div id="d1">
+
+
+
+        <form id="f">
+<fieldset>
+    <legend>Signup Form</legend>
+<p id="errorname"></p>
+<i class="fa-regular fa-user"><b>user name:</b></i> 
+<input type="text" placeholder="First Name" id="Fname">
+
+
+<p id="errorlname"></p>
+<i class="fa-regular fa-user"><b> last name: </b></i>
+     
+     <input type="text" placeholder="Last Name" id="Lname">
+
+
+    <p id="errmail"></p>
+<i class="fa-regular fa-envelope"> <b>Email: </b></i>
+    <input type="text" placeholder="E-mail" id="Email">
+
+
+    <p id="errornum"></p>
+<i class="fa-solid fa-mobile"> <b> Mobile : </b></i> 
+<input type="text" placeholder="Number" id="num"> 
+
+
+<p id="errorpass"></p>
+<i class="fa-solid fa-lock" > <b> Password : </b></i> 
+<input type="text" placeholder="password" id="pass"> 
+
+
+<p id="errorcpass"></p>
+<i class="fa-solid fa-lock"> <b>Confrim : </b> </i> 
+<input type="text" placeholder="confrim password" id="cpass"> <br><br> 
+
+<!-- <button onclick="return sub()" id="b">SIGNUP</button> -->
+ <input type="submit" value="Signup" onclick="return sub()" id="sg" > 
+
+</fieldset>
+        </form>
+        
+        
+        <p id="c4"> <a href="index.html">Already have a account?Login </a></p>
+    </div>
+
+    </div>
+     
+
+   
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+    <script src="j.js"></script>
+</body>
+</html>

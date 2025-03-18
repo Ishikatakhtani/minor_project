@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #0D1B2A, #1B263B, #415A77);
+    background-size: 300% 300%;
+    animation: gradient-shift 5s ease infinite;
+}
+
+@keyframes gradient-shift {
+    0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 100% 50%;
+      }
+}
+
+.container {
+    display: flex;
+    width: 800px;
+    height: 450px;
+    background: #16213E;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Login Section */
+.login-box {
+    width: 50%;
+    background: #1B263B;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #EAECEF;
+}
+
+.avatar img {
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid #00A8E8;
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #00A8E8;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #415A77;
+    border-radius: 6px;
+    background: #0D1B2A;
+    color: #EAECEF;
+    /* transition: border 0.3s ease, background 0.3s ease; */
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #4CC9F0;
+    background: #16213E;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    background: linear-gradient(90deg, #FF7E29, #FF5E00);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #FF5E00, #FF7E29);
+    transform: scale(1.05);
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.options a {
+    color: #4CC9F0;
+    text-decoration: none;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+/* Welcome Section */
+.welcome-box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #EAECEF;
+    padding: 40px;
+    text-align: center;
+    background: linear-gradient(120deg, #1B263B, #415A77);
+    background-size: 300% 300%;
+    animation: gradient-shift 10s ease infinite;
+}
+@keyframes gradient-shift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.welcome-box h1 {
+    font-size: 32px;
+    color: #00A8E8;
+}
+
+.welcome-box p {
+    margin: 10px 0;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.welcome-box a {
+    margin-top: 10px;
+    color: #FF7E29;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid #FF7E29;
+}
+
+.welcome-box a:hover {
+    opacity: 0.8;
+}

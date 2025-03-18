@@ -1,0 +1,84 @@
+body{
+    /* background-image: url(https://airindia.scene7.com/is/image/airindia/17);
+    background-size: cover;
+background-repeat: no-repeat; */
+background-image: url(https://i.pinimg.com/736x/1d/e9/59/1de959957c92232225b4438afece0349.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-size: 200% 200%;
+animation: gradient-shift 5s ease infinite;
+
+  
+  
+}
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+#f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+   
+}
+
+    #d1{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        padding-top: 8%;
+        gap: 12px;
+         flex-direction: column;
+          /* height: 500px;
+         width: 100%;  */
+    }
+
+
+    input {
+        width: 100%; 
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box; 
+    }
+    
+
+
+
+    #c4 a {
+        margin-top: 10px;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        border-bottom: 2px solid #FF7E29;
+    }
+    
+    #c4a:hover {
+        opacity: 0.8;
+    }
+
+  #sg{
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    background: linear-gradient(90deg, #FF7E29, #FF5E00);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#sg:hover {
+    background: linear-gradient(90deg, #FF5E00, #FF7E29);
+    transform: scale(1.05);
+}
