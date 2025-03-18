@@ -1,0 +1,32 @@
+#c1{
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMi9lwDJNIw3nHIlz7x9CQBy3ZhqeaU9ou_Q&s);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
+}
+#c1 h1{
+    color: grey;
+    padding-top: 5%;
+padding-left: 15%;
+font-size: 45px;
+}
+
+#c2{
+   font-size: 25px;
+    padding-left: 15%;
+  
+}
+
+#icon{
+    color: orange;
+    font-size: 25px;
+}
+
+#c4{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: grey;
+}

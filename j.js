@@ -111,10 +111,14 @@ else if(!( ipassword.match(/[1234567890]/) &&ipassword.match(/[ !@#$%^&*()]/)&&i
     return false  
 }
 
+location.href="index.html"
+return false
+
  localStorage.setItem("Fname",ipname)
 localStorage.setItem("Lname",Lipname)
  localStorage.setItem("numm",ippnumber)
  localStorage.setItem("Email",ipemail)
  localStorage.setItem("passs",ipassword)
  localStorage.setItem("cpasss",ipcpass)
+ 
 }
